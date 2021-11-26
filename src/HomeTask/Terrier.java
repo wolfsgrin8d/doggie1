@@ -1,7 +1,4 @@
 package HomeTask;
-
-import java.util.Scanner;
-
 public class Terrier extends Doggie implements CheckDog {
     public Terrier(String name) {
         super();
