@@ -2,7 +2,7 @@ package HomeTask;
 
 import java.util.Scanner;
 
-public class Terrier extends Doggie implements CheckDog{
+public class Terrier extends Doggie implements CheckDog {
     public Terrier(String name) {
         super();
         this.name = name;
@@ -17,8 +17,6 @@ public class Terrier extends Doggie implements CheckDog{
         this.defaultGame = 45;
         this.breed = "Terrier";
     }
-    public String toString() {
-        return("For "+name+","+breed+", now: bellyful = " + bellyful + ", walking = " + walking + ", games = " + games);}
+}
 
-    }
 

@@ -35,10 +35,8 @@ public class Doggie implements CheckDog {
         this.breed = "N/A";
     }
 
-    public void getInfo() {
-        System.out.println(name + ", bellyful = " + bellyful + ", walking = " + walking + ", games = " + games);
-
-    }
+    public String toString() {
+        return("For "+name+","+breed+", now: bellyful = " + bellyful + ", walking = " + walking + ", games = " + games);}
 
     public void healthcheck() {
         System.out.println("Your dog is " + name + " it's " + breed);
